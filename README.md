@@ -1,7 +1,5 @@
 # curseur-pointeur-perso
 
-Petite animation facile a faire avec tuto : [![ici]()](https://youtu.be/PC6j4IU5lsE)
+Petite animation facile a faire avec[![ Tuto.]()](https://youtu.be/PC6j4IU5lsE)
 
-![Curseur-pointeur](./src/Curseur-pointeur.PNG)
-
-[![ici]()](https://youtu.be/PC6j4IU5lsE)
+[![ici](./src/Curseur-pointeur.PNG)](https://franckdun.github.io/curseur-perso/)
