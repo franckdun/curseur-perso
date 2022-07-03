@@ -1,7 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    background: #1b1b1b;
+    background: #100a1c;
+    background-image:
+        radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0, 0, 0, 0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+
+
+
     overflow: hidden;
     cursor: none;
     height: 100vh;
@@ -17,11 +25,11 @@ body {
 }
 
 .cursor::before {
-    content:'';
+    content: '';
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 5px;
     height: 5px;
     background: crimson;
@@ -36,25 +44,28 @@ body {
 }
 
 @keyframes Anim1 {
-        from {
-          transform: scale(1) rotate(0deg);
+    from {
+        transform: scale(1) rotate(0deg);
 
-        }
-        to {
-            transform: scale(0.7) rotate(90deg);
-        }
-    } 
+    }
+
+    to {
+        transform: scale(0.7) rotate(90deg);
+    }
+}
 
 
 @keyframes Anim2 {
     0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(2);
 
     }
-    100%{
+
+    100% {
         transform: scale(1);
         opacity: 0;
     }
